@@ -499,7 +499,7 @@ a {
             }
 
                 .intro-container .content {
-                    border: 2px solid blue;
+                    /* border: 2px solid blue; */
                     align-items: center;
                     z-index: 200;
                     display: grid;
@@ -536,7 +536,7 @@ a {
             CONTAINER
     ====================================*/
     .container{
-        /* border: 2px solid blue; */
+        border: 2px solid blue;
         width: 90%;
         margin: 150px auto;
         display: grid;
@@ -547,11 +547,11 @@ a {
                 SECTION 
         ============================== */
         .section{
-        /* border: 2px solid red; */
+        border: 2px solid red;
             grid-row-gap: 30px;
-            display: flex;
+            /* display: flex;
             align-items: center;
-            flex-direction: column;
+            flex-direction: column; */
         }
             .section hr{
                 width: 50%;
