@@ -499,9 +499,11 @@ a {
             }
 
                 .intro-container .content {
-                    /* border: 2px solid blue; */
+                    border: 2px solid blue;
                     align-items: center;
                     z-index: 200;
+                    display: grid;
+                    row-gap: 20px;
                 }
                 .intro-container hr {
                     display: none;
@@ -660,6 +662,11 @@ a {
                 .footer-head .logo img{
                     width: 90px;
                     margin-bottom: 20px;
+                }
+
+                .footer-head .socials-icons {
+                    display: grid;
+                    column-gap: 10px;
                 }
 
             .footer-content {
