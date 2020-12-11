@@ -227,6 +227,8 @@ a {
                     .article {
                         display: grid;
                         grid-row-gap: 15px;
+                        align-items: center;
+                        justify-content: center;
                     }
                         
                         .article-title{
@@ -553,6 +555,7 @@ a {
         }
             .section hr{
                 width: 50%;
+                margin: auto;
             }
 
             .section-title{
@@ -567,26 +570,21 @@ a {
                 =========================== */
                 .articles {
                     /* border: 2px solid blue; */
-                    display: grid;
                     grid-template-columns: 1fr;
                     grid-row-gap: 50px;
-                    /* display: flex;
-                    flex-direction: column;
-                    align-items: center; */
                     justify-content: center;
                 }
 
                     .article {
-                        grid-row-gap: 20px;
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        flex-direction: column;
                         text-align: center;
+
                     }
 
                     .article img{
                         width: 80px;
+                        text-align: center;
+                        margin: auto;
+
                     }
                     
 
