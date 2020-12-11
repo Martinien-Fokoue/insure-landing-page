@@ -536,7 +536,6 @@ a {
             CONTAINER
     ====================================*/
     .container{
-        border: 2px solid blue;
         width: 90%;
         margin: 150px auto;
         display: grid;
@@ -547,7 +546,6 @@ a {
                 SECTION 
         ============================== */
         .section{
-        border: 2px solid red;
             grid-row-gap: 30px;
             /* display: flex;
             align-items: center;
