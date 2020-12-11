@@ -677,6 +677,8 @@ a {
 
                 .footer-content .content{
                     align-items: center;
+                    display: grid;
+                    row-gap: 10px;
                 }
     
 
