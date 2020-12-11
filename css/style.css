@@ -652,24 +652,27 @@ a {
         }
 
             .footer-head {
-                /* border: 2px solid red; */
+                /* border: 2px solid blue; */
                 align-items: center;
-                justify-content: center;
+                justify-content: space-between;
                 flex-direction: column;
-                grid-row-gap: 20px;
             }
                 .footer-head .logo img{
                     width: 90px;
+                    margin-bottom: 20px;
                 }
 
             .footer-content {
                 /* border: 2px solid red; */
+                display: grid;
+                grid-template-rows: 1fr 1fr 1fr 1fr;
+                grid-template-columns: 1fr;
                 grid-row-gap: 30px;
                 text-align: center;
-                display: flex;
+                /* display: flex;
                 align-items: center;
                 justify-content: center;
-                flex-direction: column;
+                flex-direction: column; */
             }
 
                 .footer-content .content{
